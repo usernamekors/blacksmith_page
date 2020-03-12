@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+
 :root {
 	--kolor-glowny-section: #bbb0af;
 	--kolor-glowny-letter: #7e7171;
@@ -12,7 +14,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: montserrat;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
 
 /* -------------------------------------- NAV -------------------------------------- */
@@ -172,6 +174,7 @@ a:hover {
 	color: #cf6615;
 	text-transform: uppercase;
 	padding: 40px 0 0 40px;
+	font-size: 2.4rem;
 }
 
 /* -------------------------------------- sectionSecond -------------------------------------- */
