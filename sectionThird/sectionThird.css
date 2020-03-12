@@ -13,9 +13,13 @@
 .movement {
 	cursor: pointer;
 	padding: 30px 0 14px 0;
+	letter-spacing: 2px;
 }
 .movement span {
 	padding: 0 20px 0 20px;
+}
+.movement span:hover {
+	color: white;
 }
 
 .sectionThird p {
