@@ -15,7 +15,7 @@ body {
 	font-family: montserrat;
 }
 
-/* NAV */
+/* -------------------------------------- NAV -------------------------------------- */
 
 nav {
 	background: var(--kolor-glowny-section);
@@ -65,7 +65,7 @@ a:hover {
 	display: none;
 }
 
-/* MEDIA NAV */
+/* -------------------------------------- MEDIA NAV -------------------------------------- */
 
 @media (max-width: 952px) {
 	label.logo {
@@ -110,7 +110,7 @@ a:hover {
 	}
 }
 
-/* sectionFirst */
+/* -------------------------------------- sectionFirst -------------------------------------- */
 
 /* .sectionFirst {
 	background: url(image.jpg) no-repeat;
@@ -167,34 +167,47 @@ a:hover {
 	box-shadow: 0 0 0 5px var(--kolor-glowny-white), 0 0 3px 10px #7e7171;
 }
 
-/* sectionSecond */
+/* -------------------------------------- chapter --------------------------------------*/
+.chapter {
+	color: #cf6615;
+	text-transform: uppercase;
+	padding: 40px 0 0 40px;
+}
+
+/* -------------------------------------- sectionSecond -------------------------------------- */
 
 .sectionSecond {
 	background-color: var(--kolor-glowny-letter);
 	height: 100vh;
 }
 
-/* sectionThird */
+/* -------------------------------------- sectionThird -------------------------------------- */
 
 .sectionThird {
 	background-color: var(--kolor-glowny-section);
 	height: 100vh;
 }
 
-/* sectionFourth */
+.sectionThird {
+}
+
+.sectionThird {
+}
+
+/* -------------------------------------- sectionFourth -------------------------------------- */
 
 .sectionFourth {
 	background-color: var(--kolor-glowny-letter);
 	height: 100vh;
 }
 
-/* sectionFifth */
+/* -------------------------------------- sectionFifth -------------------------------------- */
 
 .sectionFifth {
 	background-color: var(--kolor-glowny-section);
 	height: 100vh;
 }
-/* footer */
+/* -------------------------------------- footer -------------------------------------- */
 .footer {
 	background-color: var(--kolor-glowny-letter);
 	height: 50px;
