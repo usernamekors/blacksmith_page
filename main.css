@@ -1,0 +1,28 @@
+/* -------------------------------------- basic --------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+
+:root {
+	--kolor-glowny-section: #bbb0af;
+	--kolor-glowny-letter: #7e7171;
+	--kolor-glowny-white: #ffffff;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* -------------------------------------- chapter --------------------------------------*/
+.chapter {
+	color: #cf6615;
+	text-transform: uppercase;
+	padding: 40px 0 0 40px;
+	font-size: 2.4rem;
+}

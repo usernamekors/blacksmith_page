@@ -1,0 +1,6 @@
+/* -------------------------------------- sectionSecond -------------------------------------- */
+
+.sectionSecond {
+	background-color: var(--kolor-glowny-letter);
+	height: 100vh;
+}

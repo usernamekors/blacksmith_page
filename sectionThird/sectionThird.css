@@ -1,0 +1,25 @@
+/* -------------------------------------- sectionThird -------------------------------------- */
+
+.sectionThird {
+	background-color: var(--kolor-glowny-section);
+	height: 60vh;
+}
+.movementText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.movement {
+	cursor: pointer;
+	padding: 30px 0 14px 0;
+}
+.movement span {
+	padding: 0 20px 0 20px;
+}
+
+.sectionThird p {
+	padding: 0 150px 0 150px;
+	display: none;
+	text-align: center;
+}

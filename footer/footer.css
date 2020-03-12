@@ -1,0 +1,14 @@
+/* -------------------------------------- footer -------------------------------------- */
+.footer {
+	background-color: var(--kolor-glowny-letter);
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer h1 {
+	font-size: 1.2rem;
+	color: var(--kolor-glowny-white);
+	text-shadow: 2px 2px 4px #000000;
+}
