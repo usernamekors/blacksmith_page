@@ -2,5 +2,99 @@
 
 .sectionFifth {
 	background-color: var(--kolor-glowny-section);
-	height: 100vh;
+}
+
+.containercontact {
+	display: flex;
+}
+
+.Contactform {
+	padding: 30px;
+	width: 100%;
+}
+/* -------------------------------------- kontakt -------------------------------------- */
+
+.box {
+	padding: 25px;
+	color: #fff;
+	width: 50vw;
+}
+
+.box h4 {
+	color: var(--kolor-glowny-letter);
+	font-size: 30px;
+	letter-spacing: 5px;
+	padding: 0 15px 20px 0;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.box h1 {
+	color: #000000;
+	font-size: 25px;
+	padding: 5px;
+	text-align: left;
+	text-transform: capitalize;
+}
+.box h1 i {
+	padding: 0 15px 0 0;
+	color: #cf6615;
+}
+
+.box p {
+	color: var(--kolor-glowny-letter);
+	font-size: 20px;
+	padding: 5px;
+	text-align: left;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+/* -------------------------------------- form -------------------------------------- */
+input[type=text],
+input[type=email],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	color: var(--kolor-glowny-section);
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #332d2a;
+}
+
+@media (max-width: 768px) {
+	.containercontact {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.sectioncontact {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+}
+
+/* -------------------------------------- map -------------------------------------- */
+
+.map iframe {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.map iframe {
+		margin-top: 25px;
+	}
 }
