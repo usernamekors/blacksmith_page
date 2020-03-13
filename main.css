@@ -1,6 +1,6 @@
 /* -------------------------------------- basic --------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 :root {
 	--kolor-glowny-section: #bbb0af;
@@ -16,7 +16,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 /* -------------------------------------- chapter --------------------------------------*/
