@@ -31,6 +31,9 @@
 	box-sizing: border-box;
 	letter-spacing: 2px;
 }
+.accordionItemHeading i {
+	padding: 0 25px 0 0;
+}
 .accordionItemHeading:hover {
 	color: rgb(77, 75, 75);
 }
