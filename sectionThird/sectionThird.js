@@ -1,13 +1,31 @@
-let btn = document.querySelector('.movement');
-let textOne = document.querySelector('.textOne');
+// let btn = document.querySelector('.movement');
+// let textOne = document.querySelector('.textOne');
 
-// let btn = document.querySelectorAll('.movement');
-// let textOne = document.querySelectorAll('.textOne');
+// // let btn = document.querySelectorAll('.movement');
+// // let textOne = document.querySelectorAll('.textOne');
 
-btn.addEventListener('click', () => {
-	if (textOne.style.display === 'block') {
-		textOne.style.display = 'none';
-	} else {
-		textOne.style.display = 'block';
+// btn.addEventListener('click', () => {
+// 	if (textOne.style.display === 'block') {
+// 		textOne.style.display = 'none';
+// 	} else {
+// 		textOne.style.display = 'block';
+// 	}
+// });
+/* ---------------------------------------- start ------------------------------------------------ */
+
+/* --------------------------------------------stop-------------------------------------------------- */
+
+var accItem = document.getElementsByClassName('accordionItem');
+var accHD = document.getElementsByClassName('accordionItemHeading');
+for (i = 0; i < accHD.length; i++) {
+	accHD[i].addEventListener('click', toggleItem, false);
+}
+function toggleItem() {
+	var itemClass = this.parentNode.className;
+	for (i = 0; i < accItem.length; i++) {
+		accItem[i].className = 'accordionItem close';
 	}
-});
+	if (itemClass == 'accordionItem close') {
+		this.parentNode.className = 'accordionItem open';
+	}
+}
