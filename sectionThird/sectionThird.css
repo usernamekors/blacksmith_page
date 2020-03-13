@@ -6,19 +6,17 @@
 }
 .accordionWrapper {
 	padding: 15px;
-	background: rgb(223, 214, 214);
 	float: left;
 	width: 80%;
 	box-sizing: border-box;
 	margin: 10%;
-	box-shadow: 0 1.5em 85px 0 rgba(0, 0, 0, 0.2);
 }
 .accordionItem {
 	float: left;
 	display: block;
 	width: 100%;
 	box-sizing: border-box;
-	font-family: 'Open-sans', Arial, sans-serif;
+	font-size: 1.2rem;
 }
 .accordionItemHeading {
 	cursor: pointer;
@@ -47,8 +45,6 @@
 }
 .open .accordionItemContent {
 	padding: 20px;
-	background-color: rgb(216, 213, 213);
-	border: 1px solid #ddd;
 	width: 100%;
 	margin: 10px 0px 10px 0px;
 	display: block;
