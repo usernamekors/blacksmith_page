@@ -2,5 +2,66 @@
 
 .sectionSecond {
 	background-color: var(--kolor-glowny-letter);
-	height: 100vh;
+	height: auto;
+}
+
+
+.sectionSecond p {
+
+  width: 100%;
+  height: auto;
+  padding: 20px 5px;
+  font-size: large;
+  line-height: 2;
+  text-align: justify;
+  float: left;
+}
+
+.sectionSecond img {
+  display: none;
+}
+
+@media screen and (min-width:580px) {
+
+
+.sectionSecond img {
+  width: 50%;
+  max-height: 100%;
+  padding: 20px;
+  display: block;
+  float: right;
+}
+.sectionSecond p {
+
+  width: 100%;
+  height: auto;
+  padding: 20px 5px;
+  font-size: large;
+  line-height: 2;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+}
+
+/*
+.sectionSecond p {
+  float:left;
+  width: 50%;
+  padding: 20px 40px;
+  font-size: large;
+  line-height: 2;
+}
+
+.sectionSecond img {
+  width: 50%;
+  max-height: 100%;
+  padding-right: 50px;
+}
+*/
+
+
+
+.fix {
+  clear: both;
 }
