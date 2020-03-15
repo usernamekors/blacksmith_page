@@ -80,3 +80,20 @@
 		grid-column-gap: 1em;
 	}
 }
+/* -------------------------------------- open foto -------------------------------------- */
+.open-project-item {
+	background-color: var(--kolor-glowny-section);
+	grid-column: 1/4;
+	display: none;
+}
+
+.pic {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.pic img {
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+}
