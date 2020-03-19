@@ -1,4 +1,4 @@
-/* -------------------------------------- sectionFourth -------------------------------------- */
+/* -------------------------------------- sectionOffers -------------------------------------- */
 #project {
 	padding: 20px 0 80px 0;
 	background-color: var(--kolor-glowny-letter);
@@ -97,3 +97,8 @@
 	height: 150px;
 	padding: 5px;
 }
+
+/* .close .open-project-item {
+	height: 0px;
+	transform: scaleY(0);
+} */

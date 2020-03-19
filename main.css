@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
+@import url("../blacksmith_page/components/nav/nav.css");
+@import url("../blacksmith_page/components/sectionSlider/sectionSlider.css");
+@import url("../blacksmith_page/components/sectionAbout/sectionAbout.css");
+@import url("../blacksmith_page/components/sectionOrders/sectionOrders.css");
+@import url("../blacksmith_page/components/sectionOffers/sectionOffers.css");
+@import url("../blacksmith_page/components/sectionContact/sectionContact.css");
+@import url("../blacksmith_page/components/footer/footer.css");
+
 :root {
 	--kolor-glowny-section: #bbb0af;
 	--kolor-glowny-letter: #7e7171;

@@ -1,3 +1,5 @@
+//sectionSlider
+
 const slideList = [
 	{
 		img: 'images/img5.jpg',
