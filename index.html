@@ -1,221 +1,398 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html lang="pl" dir="ltr">
+
+<head>
     <meta charset="utf-8">
-    <title>LOGO FIRMA</title>
+    <title>kowalstwo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <!-- <link rel="stylesheet" href="nav/nav.css">
-    <link rel="stylesheet" href="sectionFirst/sectionFirst.css">
-    <link rel="stylesheet" href="sectionSecond/sectionSecond.css">
-    <link rel="stylesheet" href="sectionThird/sectionThird.css">
-    <link rel="stylesheet" href="sectionFourth/sectionFourth.css">
-    <link rel="stylesheet" href="sectionFifth/sectionFifth.css">
-    <link rel="stylesheet" href="footer/footer.css"> -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo">LOGO FIRMA</label>
-      <ul>
-        <li><a href="#about">o firmie</a></li>
-        <li><a href="#orders">zamówienia</a></li>
-        <li><a href="#offer">oferta</a></li>
-        <li><a href="#contact">kontakt</a></li>
-      </ul>
+        <label class="logo">LOGO FIRMA</label>
+        <ul>
+            <li><a href="#about">o firmie</a></li>
+            <li><a href="#orders">zamówienia</a></li>
+            <li><a href="#offer">oferta</a></li>
+            <li><a href="#contact">kontakt</a></li>
+        </ul>
     </nav>
-     <!-- -------------------------------------- sectionSlider --------------------------------------  -->
+    <!-- -------------------------------------- sectionSlider --------------------------------------  -->
     <section class="sectionFirst">
         <img class="slider" src="images/img5.jpg" alt="">
         <h1 class="slider">Mówienie tak bardzo przeszkadza w myśleniu.</h1>
         <div class="dots">
-          <span id="one" class="active"></span>
-          <span id="two"></span>
-          <span id="three"></span>
+            <span id="one" class="active"></span>
+            <span id="two"></span>
+            <span id="three"></span>
         </div>
     </section>
-   <!-- -------------------------------------- sectionAbout --------------------------------------  -->
+    <!-- -------------------------------------- sectionAbout --------------------------------------  -->
     <section id="about" class="sectionSecond">
-      <h1 class="chapter">o firmie</h1>
+        <h1 class="chapter">o firmie</h1>
     </section>
-     <!-- -------------------------------------- sectionOrders --------------------------------------  -->
-         <section id="orders" class="sectionThird">
-              <h2 class="chapter">zamówienia i realizacja</h2>
-              <div class="accordionWrapper">
-                <div class="accordionItem close">
-                      <h2 class="accordionItemHeading"><i class="fas fa-arrow-circle-down"></i>Pomiar i wycena</h2>
-                      <div class="accordionItemContent">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum optio dolorem soluta, quas aspernatur.</p>
-                      </div>
+    <!-- -------------------------------------- sectionOrders --------------------------------------  -->
+    <section id="orders" class="sectionThird">
+        <h2 class="chapter">zamówienia i realizacja</h2>
+
+
+        <div class="accordionWrapper">
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading"><i class="fas fa-arrow-circle-down"></i>Pomiar i wycena</h2>
+                <div class="accordionItemContent">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum optio dolorem soluta, quas aspernatur.</p>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading"><i class="fas fa-arrow-circle-down"></i>Dostawa i montaż</h2>
+                <div class="accordionItemContent">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum optio dolorem soluta, quas aspernatur.</p>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading"><i class="fas fa-arrow-circle-down"></i>Płatność</h2>
+                <div class="accordionItemContent">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum optio dolorem soluta, quas aspernatur.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- -------------------------------------- sectionOffers --------------------------------------  -->
+    <!-- START #3 -->
+    <section id="offer">
+        <h1 class="chapter">oferta</h1>
+        <div class="container">
+
+            <div class="menu">
+                <input type="radio" name="tab" id="btn1">
+                <input type="radio" name="tab" id="btn2">
+                <input type="radio" name="tab" id="btn3">
+                <input type="radio" name="tab" id="btn4">
+
+                <div class="labels">
+                    <label for="btn1">
+                            <div class="foto">
+                                <img src="images/img6.jpg" alt="">
+                            </div>
+                        </label>
+                    <label for="btn2">
+                            <div class="foto">
+                                <img src="images/img5.jpg" alt="">
+                            </div>
+                        </label>
+                    <label for="btn3">
+                            <div class="foto">
+                                <img src="images/img4.jpg" alt="">
+                            </div>
+                        </label>
+                    <label for="btn4">
+                            <div class="foto">
+                                <img src="images/img6.jpg" alt="">
+                            </div>
+                        </label>
+                </div>
+
+                <section>
+                    <div class="wrapperSmallPic">
+                        <h1>Ogrodzenia zwykłe</h1>
+                        <div class="smallfoto">
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                        </div>
                     </div>
-                    <div class="accordionItem close">
-                      <h2 class="accordionItemHeading"><i class="fas fa-arrow-circle-down"></i>Dostawa i montaż</h2>
-                      <div class="accordionItemContent">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum optio dolorem soluta, quas aspernatur.</p>
-                      </div>
+
+                    <div class="wrapperSmallPic">
+                        <h1>Ogrodzenia ozdobne</h1>
+                        <div class="smallfoto">
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img5.jpg " alt=" "></div>
+                        </div>
                     </div>
-                    <div class="accordionItem close">
-                      <h2 class="accordionItemHeading"><i class="fas fa-arrow-circle-down"></i>Płatność</h2>
-                      <div class="accordionItemContent">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum optio dolorem soluta, quas aspernatur.</p>
-                      </div>
+
+                    <div class="wrapperSmallPic">
+                        <h1>Latarnie</h1>
+                        <div class="smallfoto ">
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img4.jpg " alt=" "></div>
+                        </div>
+                    </div>
+
+                    <div class="wrapperSmallPic">
+                        <h1>Balustrady</h1>
+                        <div class="smallfoto ">
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                            <div class="smallfoto_1 "><img src="images/img6.jpg " alt=" "></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    </section>
+    </div>
+    <!-- END #3 -->
+    <!-- START #2 -->
+    <!-- <div class="offers ">
+        <section id="project ">
+            <h1 class="chapter ">oferta</h1>
+            <div class="project-container ">
+
+                <div class="elementquery ">
+                    <div class="foto ">foto_1</div>
+                    <div class="smallfoto ">
+                        <div class="smallfoto_1 ">smallfoto_1</div>
+                        <div class="smallfoto_1 ">smallfoto_1</div>
+                        <div class="smallfoto_1 ">smallfoto_1</div>
+                        <div class="smallfoto_1 ">smallfoto_1</div>
+                        <div class="smallfoto_1 ">smallfoto_1</div>
+                        <div class="smallfoto_1 ">smallfoto_1</div>
                     </div>
                 </div>
-          </section>
-     <!-- -------------------------------------- sectionOffers --------------------------------------  -->
-<div id="offer">
-     <section id="project">
-      <h1 class="chapter">oferta</h1>
-      <div class="project-container">
 
+                <div class="elementquery ">
+                    <div class="foto ">foto_2</div>
+                    <div class="smallfoto ">
+                        <div class="smallfoto_1 ">smallfoto_2</div>
+                        <div class="smallfoto_1 ">smallfoto_2</div>
+                        <div class="smallfoto_1 ">smallfoto_2</div>
+                        <div class="smallfoto_1 ">smallfoto_2</div>
+                        <div class="smallfoto_1 ">smallfoto_2</div>
+                        <div class="smallfoto_1 ">smallfoto_2</div>
+                    </div>
+                </div>
 
+                <div class="elementquery ">
+                    <div class="foto ">foto_3</div>
+                    <div class="smallfoto ">
+                        <div class="smallfoto_1 ">smallfoto_3</div>
+                        <div class="smallfoto_1 ">smallfoto_3</div>
+                        <div class="smallfoto_1 ">smallfoto_3</div>
+                        <div class="smallfoto_1 ">smallfoto_3</div>
+                        <div class="smallfoto_1 ">smallfoto_3</div>
+                        <div class="smallfoto_1 ">smallfoto_3</div>
+                    </div>
+                </div>
 
-        <article class="project-item">
-          <img src="images/img4.jpg" alt="">
-          <div class="img-text">
-            <h1>Ogrodzenia zwykłe</h1>
-          </div>
-          <div class="img-footer">
-            <div class="footer-icon"
+                <div class="elementquery ">
+                    <div class="foto ">foto_4</div>
+                    <div class="smallfoto ">
+                        <div class="smallfoto_1 ">smallfoto_4</div>
+                        <div class="smallfoto_1 ">smallfoto_4</div>
+                        <div class="smallfoto_1 ">smallfoto_4</div>
+                        <div class="smallfoto_1 ">smallfoto_4</div>
+                        <div class="smallfoto_1 ">smallfoto_4</div>
+                        <div class="smallfoto_1 ">smallfoto_4</div>
+                    </div>
+                </div>
+
+                <div class="elementquery ">
+                    <div class="foto ">foto_5</div>
+                    <div class="smallfoto ">
+                        <div class="smallfoto_1 ">smallfoto_5</div>
+                        <div class="smallfoto_1 ">smallfoto_5</div>
+                        <div class="smallfoto_1 ">smallfoto_5</div>
+                        <div class="smallfoto_1 ">smallfoto_5</div>
+                        <div class="smallfoto_1 ">smallfoto_5</div>
+                        <div class="smallfoto_1 ">smallfoto_5</div>
+                    </div>
+                </div>
+
+                <div class="elementquery ">
+                    <div class="foto ">foto_6</div>
+                    <div class="smallfoto ">
+                        <div class="smallfoto_1 ">smallfoto_6</div>
+                        <div class="smallfoto_1 ">smallfoto_6</div>
+                        <div class="smallfoto_1 ">smallfoto_6</div>
+                        <div class="smallfoto_1 ">smallfoto_6</div>
+                        <div class="smallfoto_1 ">smallfoto_6</div>
+                        <div class="smallfoto_1 ">smallfoto_6</div>
+                    </div>
+                </div>
+
             </div>
-            <p> Ogrodzenia zwykłe</p>
-          </div>
-        </article>
-        
-  
-        <article class="project-item">
-          <img src="images/img5.jpg" alt="">
-          <div class="img-text">
-            <h1>Ogrodzenia ozdobne</h1>
-          </div>
-          <div class="img-footer">
-            <div class="footer-icon"
+
+        </section>
+    </div> -->
+    <!-- END #2 -->
+    <!-- START #1 -->
+    <!-- <div id="offer ">
+        <section id="project ">
+            <h1 class="chapter ">oferta</h1>
+            <div class="project-container ">
+                <article class="project-item ">
+                    <img src="images/img4.jpg " alt=" ">
+                    <div class="img-text ">
+                        <h1>Ogrodzenia zwykłe</h1>
+                    </div>
+                    <div class="img-footer ">
+                        <div class="footer-icon "></div>
+                        <p>Ogrodzenia zwykłe</p>
+                    </div>
+                </article>
+                <article class="project-item ">
+                    <img src="images/img5.jpg " alt=" ">
+                    <div class="img-text ">
+                        <h1>Ogrodzenia ozdobne</h1>
+                    </div>
+                    <div class="img-footer ">
+                        <div class="footer-icon "></div>
+                        <p>Ogrodzenia ozdobne</p>
+                    </div>
+                </article>
+                <article class="project-item ">
+                    <img src="images/img6.jpg " alt=" ">
+                    <div class="img-text ">
+                        <h1>Latarnie</h1>
+                    </div>
+                    <div class="img-footer ">
+                        <div class="footer-icon "></div>
+                        <p>Latarnie</p>
+                    </div>
+                </article>
+                <article class="project-item ">
+                    <img src="images/img6.jpg " alt=" ">
+                    <div class="img-text ">
+                        <h1>Balustrady</h1>
+                    </div>
+                    <div class="img-footer ">
+                        <div class="footer-icon ">
+                        </div>
+                        <p>Balustrady</p>
+                    </div>
+                </article>
+                <article class="project-item ">
+                    <img src="images/img4.jpg " alt=" ">
+                    <div class="img-text ">
+                        <h1>Kwasówka</h1>
+                    </div>
+                    <div class="img-footer ">
+                        <div class="footer-icon ">
+                        </div>
+                        <p>Kwasówka</p>
+                    </div>
+                </article>
+                <article class="project-item ">
+                    <img src="images/img5.jpg " alt=" ">
+                    <div class="img-text ">
+                        <h1>Inne</h1>
+                    </div>
+                    <div class="img-footer ">
+                        <div class="footer-icon ">
+                        </div>
+                        <p>Inne</p>
+                    </div>
+                </article>
+                <div class="open-project-item ">
+                    <div class="pic ">
+                        <img src="images/img4.jpg " alt=" ">
+                        <img src="images/img5.jpg " alt=" ">
+                        <img src="images/img6.jpg " alt=" ">
+                        <img src="images/img4.jpg " alt=" ">
+                        <img src="images/img4.jpg " alt=" ">
+                        <img src="images/img5.jpg " alt=" ">
+                        <img src="images/img6.jpg " alt=" ">
+                        <img src="images/img4.jpg " alt=" ">
+                        <img src="images/img4.jpg " alt=" ">
+                        <img src="images/img5.jpg " alt=" ">
+                        <img src="images/img6.jpg " alt=" ">
+                        <img src="images/img4.jpg " alt=" ">
+                    </div>
+                </div>
             </div>
-            <p>Ogrodzenia ozdobne</p>
-          </div>
-        </article>
+        </section>
+    </div> -->
+    <!-- END #1 -->
+    <!-- -------------------------------------- sectionContact --------------------------------------  -->
+    <section class="sectionFifth" id="contact">
+        <h1 class="chapter">kontakt</h1>
 
-  <article class="project-item">
-    <img src="images/img6.jpg" alt="">
-    <div class="img-text">
-      <h1>Latarnie</h1>
-    </div>
-    <div class="img-footer">
-      <div class="footer-icon"
-      </div>
-      <p>Latarnie</p>
-    </div>
-  </article>
+        <!-- -------------------------------------- start --------------------------------------  -->
 
-    <div class="open-project-item">
-      <div class="pic">
-        <img src="images/img4.jpg" alt="">
-        <img src="images/img5.jpg" alt="">
-        <img src="images/img6.jpg" alt="">
-        <img src="images/img4.jpg" alt="">
-        <img src="images/img4.jpg" alt="">
-        <img src="images/img5.jpg" alt="">
-        <img src="images/img6.jpg" alt="">
-        <img src="images/img4.jpg" alt="">
-        <img src="images/img4.jpg" alt="">
-        <img src="images/img5.jpg" alt="">
-        <img src="images/img6.jpg" alt="">
-        <img src="images/img4.jpg" alt="">
-      </div>
-    </div>
-
-
-
-          <article class="project-item">
-            <img src="images/img6.jpg" alt="">
-            <div class="img-text">
-              <h1>Balustrady</h1>
-            </div>
-            <div class="img-footer">
-              <div class="footer-icon">
-              </div>
-              <p>Balustrady</p>
-            </div>
-          </article>
-
-          <article class="project-item">
-            <img src="images/img4.jpg" alt="">
-            <div class="img-text">
-              <h1>Kwasówka</h1>
-            </div>
-            <div class="img-footer">
-              <div class="footer-icon">
-              </div>
-                 <p>Kwasówka</p>
-            </div>
-          </article>
-
-          <article class="project-item">
-            <img src="images/img5.jpg" alt="">
-            <div class="img-text">
-              <h1>Inne</h1>
-            </div>
-            <div class="img-footer">
-              <div class="footer-icon">
-              </div>
-              <p>Inne</p>
-            </div>
-          </article>
-
-      </div>
-    </section>
-  </div>
-     <!-- -------------------------------------- sectionContact --------------------------------------  -->
-    <section id="contact" class="sectionFifth">
-      <h1 class="chapter">kontakt</h1>
-
-           <!-- -------------------------------------- start --------------------------------------  -->
-
-           <section class="sectioncontact">
+        <section class="sectioncontact">
             <div class="containercontact">
                 <div class="Contactform">
-                    <form method="POST" action="">
+                    <form method="POST" action=" ">
                         <input type="text" name="name" placeholder="Wpisz imie i nazwisko" required>
                         <input type="email" name="email" placeholder="Wpisz e-mail/numer kontaktowy" required>
-                        <textarea name="message" placeholder="Napisz wiadomość.." style="height:200px" required></textarea>
+                        <textarea name="message" placeholder="Napisz wiadomość.." required></textarea>
                         <input type="submit" value="Wyślij wiadomość">
                     </form>
                 </div>
-                <!-- <div class="Contactpic">
-                    <img src="images/img5.jpg" alt="">
+                <!-- <div class="Contactpic ">
+                    <img src="images/img5.jpg " alt=" ">
                 </div> -->
                 <div class="box">
-                  <h4>Dane kontaktowe</h4>
-                  <h1><i class="fas fa-map-marker-alt"></i>adres</h1>
-                  <p>Kowalstwo Artystyczne - Adolf  Kowalski</p>
-                  <p>Gierłoż 5</p>
-                  <p>11-400 Gierłoża</p>
-                  <h1><i class="fas fa-phone-alt"></i>Telefon</h1>
-                  <p>89 741 00 31</p>
-                  <h1><i class="far fa-envelope-open"></i>Email</h1>
-                  <p>Email: info@adiKowal.pl</p>
-              </div>
+                    <h4>Dane kontaktowe</h4>
+                    <h1><i class="fas fa-map-marker-alt"></i>adres</h1>
+                    <p>Kowalstwo Artystyczne - Adolf Kowalski</p>
+                    <p>Gierłoż 5</p>
+                    <p>11-400 Gierłoża</p>
+                    <h1><i class="fas fa-phone-alt"></i>Telefon</h1>
+                    <p>89 741 00 31</p>
+                    <h1><i class="far fa-envelope-open"></i>Email</h1>
+                    <p>Email: info@adiKowal.pl</p>
+                </div>
             </div>
             <div class="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2317.299055530211!2d18.532247315333255!3d54.492948095909234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda0c614a46587%3A0x1146b3082e9d4d02!2zxYF1xbx5Y2thIDhBLCA4MS01MzcgR2R5bmlh!5e0!3m2!1spl!2spl!4v1584140331614!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                <!-- <iframe src="https://goo.gl/maps/5ehoT6rnaag9FmQm8"
-                    frameborder="0" allowfullscreen></iframe> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2317.299055530211!2d18.532247315333255!3d54.492948095909234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda0c614a46587%3A0x1146b3082e9d4d02!2zxYF1xbx5Y2thIDhBLCA4MS01MzcgR2R5bmlh!5e0!3m2!1spl!2spl!4v1584140331614!5m2!1spl!2spl"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=" " aria-hidden="false" tabindex="0"></iframe>
+                <!-- <iframe src="https://goo.gl/maps/5ehoT6rnaag9FmQm8 "
+                    frameborder="0 " allowfullscreen></iframe> -->
             </div>
         </section>
 
-    <!-- -------------------------------------- stop --------------------------------------  -->
+        <!-- -------------------------------------- stop --------------------------------------  -->
     </section>
-     <!-- -------------------------------------- footer --------------------------------------  -->
+    <!-- -------------------------------------- footer --------------------------------------  -->
     <footer class="footer">
-      <h1>korsSolution &copy All Rights Reserved</h1>
+        <h1>korsSolution &copy All Rights Reserved</h1>
     </footer>
-     <!-- -------------------------------------- JS --------------------------------------  -->
+    <!-- -------------------------------------- JS --------------------------------------  -->
     <script src="../blacksmith_page/components/sectionSlider/sectionSlider.js"></script>
     <script src="../blacksmith_page/components/sectionOrders/sectionOrders.js"></script>
     <script src="../blacksmith_page/components/sectionOffers/sectionOffers.js"></script>
-  </body>
+</body>
+
 </html>

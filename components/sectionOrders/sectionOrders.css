@@ -1,65 +1,69 @@
-/* -------------------------------------- sectionOrders -------------------------------------- */
-
 .sectionThird {
-	background-color: var(--kolor-glowny-section);
-	height: 100vh;
+    background-color: var(--kolor-glowny-section);
+    height: 100vh;
 }
+
 .accordionWrapper {
-	padding: 15px;
-	float: left;
-	width: 80%;
-	box-sizing: border-box;
-	margin: 10%;
+    padding: 15px;
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10%;
 }
+
 .accordionItem {
-	float: left;
-	display: block;
-	width: 100%;
-	box-sizing: border-box;
-	font-size: 1.2rem;
+    float: left;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
 }
+
 .accordionItemHeading {
-	cursor: pointer;
-	margin: 0px 0px 10px 0px;
-	padding: 10px;
-	background: var(--kolor-glowny-section);
-	color: var(--kolor-glowny-letter);
-	width: 100%;
-	border-radius: 3px;
-	box-sizing: border-box;
-	letter-spacing: 2px;
+    cursor: pointer;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    background: var(--kolor-glowny-section);
+    color: var(--kolor-glowny-letter);
+    width: 100%;
+    border-radius: 3px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
 }
+
 .accordionItemHeading i {
-	padding: 0 25px 0 0;
+    padding: 0 25px 0 0;
 }
+
 .accordionItemHeading:hover {
-	color: rgb(77, 75, 75);
+    color: rgb(77, 75, 75);
 }
 
 .close .accordionItemContent {
-	height: 0px;
-	transition: height 3s ease-out;
-	transform: scaleY(0);
-	float: left;
-	display: block;
+    height: 0px;
+    transition: height 3s ease-out;
+    transform: scaleY(0);
+    float: left;
+    display: block;
 }
+
 .open .accordionItemContent {
-	padding: 20px;
-	width: 100%;
-	margin: 10px 0px 10px 0px;
-	display: block;
-	transform: scaleY(1);
-	transform-origin: top;
-	transition: transform 0.6s ease;
-	box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    display: block;
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.6s ease;
+    box-sizing: border-box;
 }
 
 .open .accordionItemHeading {
-	margin: 0px;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 0px;
-	border-bottom-left-radius: 0px;
-	background-color: var(--kolor-glowny-section);
-	color: #000000;
+    margin: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: var(--kolor-glowny-section);
+    color: #000000;
 }
