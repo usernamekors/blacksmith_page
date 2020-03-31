@@ -1,51 +1,48 @@
-/* -------------------------------------- sectionSlider -------------------------------------- */
-/* @import url("i1css.css"); */
-
 .sectionFirst {
-	width: 100%;
-	height: calc(100vh - 80px);
-	position: relative;
-	overflow: hidden;
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: relative;
+    overflow: hidden;
 }
 
 .sectionFirst img {
-	position: absolute;
-	min-width: 100%;
-	min-height: 100%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	opacity: 0.6;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
 }
 
 .sectionFirst h1 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 40px;
-	font-family: tahoma, sans-serif;
-	text-shadow: 0 0 6px var(--kolor-glowny-white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: tahoma, sans-serif;
+    text-shadow: 0 0 6px var(--kolor-glowny-white);
 }
 
 .dots {
-	position: absolute;
-	bottom: 30px;
-	left: 50%;
-	transform: translateX(-50%);
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .dots span {
-	display: inline-block;
-	background-color: #000;
-	margin: 0 20px;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	box-shadow: 0 0 0 5px var(--kolor-glowny-white);
+    display: inline-block;
+    background-color: #000;
+    margin: 0 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px var(--kolor-glowny-white);
 }
 
 .dots span.active {
-	box-shadow: 0 0 0 5px var(--kolor-glowny-white), 0 0 3px 10px #3d3737;
+    box-shadow: 0 0 0 5px var(--kolor-glowny-white), 0 0 3px 10px #3d3737;
 }

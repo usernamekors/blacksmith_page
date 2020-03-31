@@ -1,6 +1,41 @@
 /* -------------------------------------- sectionAbout -------------------------------------- */
 
-.sectionSecond {
-	background-color: var(--kolor-glowny-letter);
-	height: 100vh;
+#about {
+    background-color: var(--kolor-glowny-letter);
+    height: 100%;
+}
+
+.wrapperAbout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrapperAbout p {
+    width: 650px;
+    font-size: 1.2rem;
+    padding: 0 55px 0 0;
+    letter-spacing: 1px;
+    line-height: 2em;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.wrapperAbout p::first-letter {
+    font-size: 2.6rem;
+}
+
+.wrapperAbout img {
+    width: 32%;
+    height: 500px;
+    border-radius: 10%;
+    padding: 0 0 25px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapperAbout img {
+        width: 100%;
+        padding: 0 15px 25px 15px;
+    }
 }
