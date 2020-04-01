@@ -24,6 +24,7 @@
     font-size: 40px;
     font-family: tahoma, sans-serif;
     text-shadow: 0 0 6px var(--kolor-glowny-white);
+    text-align: center;
 }
 
 .dots {

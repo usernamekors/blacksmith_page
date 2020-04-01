@@ -29,9 +29,10 @@ nav ul li a {
     color: var(--kolor-glowny-white);
     font-size: 17px;
     padding: 7px 13px;
+    margin: 0 24px 0 14px;
     border-radius: 3px;
     text-transform: uppercase;
-    border: 3px solid black;
+    border: 4px solid black;
 }
 
 a:hover {

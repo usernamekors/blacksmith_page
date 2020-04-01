@@ -27,16 +27,13 @@
 }
 
 .wrapperAbout img {
-    width: 32%;
+    width: 30%;
     height: 500px;
     border-radius: 10%;
-    padding: 0 0 26px 0;
+    padding: 0 0 46px 0;
 }
 
 @media screen and (max-width: 600px) {
-    #about .chapter {
-        text-align: center;
-    }
     .wrapperAbout p {
         font-size: 1.0rem;
         padding: 25px;

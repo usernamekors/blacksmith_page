@@ -1,7 +1,6 @@
 /* -------------------------------------- basic --------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-
 @import url("../blacksmith_page/components/nav/nav.css");
 @import url("../blacksmith_page/components/sectionSlider/sectionSlider.css");
 @import url("../blacksmith_page/components/sectionAbout/sectionAbout.css");
@@ -9,28 +8,36 @@
 @import url("../blacksmith_page/components/sectionOffers/sectionOffers.css");
 @import url("../blacksmith_page/components/sectionContact/sectionContact.css");
 @import url("../blacksmith_page/components/footer/footer.css");
-
 :root {
-	--kolor-glowny-section: #bbb0af;
-	--kolor-glowny-letter: #7e7171;
-	--kolor-glowny-white: #ffffff;
+    --kolor-glowny-section: #bbb0af;
+    --kolor-glowny-letter: #7e7171;
+    --kolor-glowny-white: #ffffff;
 }
 
 * {
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-}
-body {
-	font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
 /* -------------------------------------- chapter --------------------------------------*/
+
 .chapter {
-	color: #cf6615;
-	text-transform: uppercase;
-	padding: 40px 0 0 40px;
-	font-size: 2.4rem;
+    color: #cf6615;
+    text-transform: uppercase;
+    padding: 40px 0 0 40px;
+    font-size: 2.4rem;
+}
+
+@media screen and (max-width: 600px) {
+    .chapter {
+        text-align: center;
+    }
 }

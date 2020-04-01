@@ -17,16 +17,13 @@
 /* -------------------------------------- kontakt -------------------------------------- */
 
 .box {
-    /* padding: 25px; */
-    /* color: #fff; */
     width: 100vw;
-    /* text-align: center; */
     line-height: 35px;
 }
 
 .box h4 {
     color: var(--kolor-glowny-letter);
-    font-size: 30px;
+    font-size: 36px;
     letter-spacing: 5px;
     padding: 0 15px 20px 0;
     text-align: center;
@@ -45,24 +42,14 @@
 .box h4 i {
     padding: 0 15px 0 0;
     color: #cf6615;
-    /* width: 15px; */
 }
 
 .box p {
     color: var(--kolor-glowny-letter);
     font-size: 20px;
-    /* padding: 5px; */
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
-}
-
-@media screen and (max-width: 600px) {
-    .box {
-        /* text-align: center; */
-        /* background-color: #cf6615; */
-        /* z-index: 999; */
-    }
 }
 
 
@@ -72,11 +59,11 @@ input[type=text],
 input[type=email],
 select,
 textarea {
+    border-radius: 12px;
+    border: 2px solid var(--kolor-glowny-letter);
     width: 100%;
     padding: 12px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin: 6px 0 16px 0;
     resize: vertical;
 }
 
@@ -94,6 +81,9 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #332d2a;
 }
+
+
+/* -------------------------------------- Mediaform -------------------------------------- */
 
 @media (max-width: 768px) {
     .containercontact {
