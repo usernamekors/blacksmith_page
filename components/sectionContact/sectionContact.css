@@ -17,9 +17,11 @@
 /* -------------------------------------- kontakt -------------------------------------- */
 
 .box {
-    padding: 25px;
-    color: #fff;
-    width: 50vw;
+    /* padding: 25px; */
+    /* color: #fff; */
+    width: 100vw;
+    /* text-align: center; */
+    line-height: 35px;
 }
 
 .box h4 {
@@ -35,22 +37,32 @@
     color: #000000;
     font-size: 25px;
     padding: 5px;
-    text-align: left;
+    text-align: center;
     text-transform: capitalize;
 }
 
-.box h1 i {
+.box p i,
+.box h4 i {
     padding: 0 15px 0 0;
     color: #cf6615;
+    /* width: 15px; */
 }
 
 .box p {
     color: var(--kolor-glowny-letter);
     font-size: 20px;
-    padding: 5px;
-    text-align: left;
+    /* padding: 5px; */
+    text-align: center;
     text-transform: capitalize;
     font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        /* text-align: center; */
+        /* background-color: #cf6615; */
+        /* z-index: 999; */
+    }
 }
 
 
@@ -85,9 +97,6 @@ input[type=submit]:hover {
 
 @media (max-width: 768px) {
     .containercontact {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
     }
     .sectioncontact {
