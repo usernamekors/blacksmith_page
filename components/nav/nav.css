@@ -29,10 +29,9 @@ nav ul li a {
     color: var(--kolor-glowny-white);
     font-size: 17px;
     padding: 7px 13px;
-    margin: 0 24px 0 14px;
     border-radius: 3px;
     text-transform: uppercase;
-    border: 4px solid black;
+    border: 3px solid black;
 }
 
 a:hover {
@@ -61,20 +60,20 @@ a:hover {
 @media (max-width: 952px) {
     .checkbtn {
         position: fixed;
-        /* width hamburger */
-        margin: 0 0 0 430px;
+        margin: 0 0 0 30px;
         z-index: 2;
     }
     label.logo {
         font-size: 30px;
-        padding-left: 50px;
+        float: right;
+        letter-spacing: 2px;
     }
     nav ul li a {
         font-size: 16px;
     }
 }
 
-@media (max-width: 858px) {
+@media (max-width: 1125px) {
     .checkbtn {
         display: block;
     }
@@ -91,11 +90,11 @@ a:hover {
     }
     nav ul li {
         display: block;
-        margin: 70px 0;
-        line-height: 20px;
+        margin: 60px 0 0 0;
+        line-height: 14px;
     }
     nav ul li a {
-        font-size: 26px;
+        font-size: 22px;
         border: none;
     }
     a:hover {

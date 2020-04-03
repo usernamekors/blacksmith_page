@@ -7,6 +7,11 @@
     min-height: 100%;
 }
 
+
+/* #OgrodzeniaOzdobne {
+    transition: .35s;
+} */
+
 .container {
     max-width: 60vw;
     margin: 0 auto;
@@ -95,4 +100,10 @@ input:nth-child(4):checked~section {
 
 input:nth-child(5):checked~section {
     transform: translateX(calc(-400% - 160px));
+}
+
+@media (max-width: 952px) {
+    #offer .chapter {
+        margin: 0 0 25px 0;
+    }
 }
