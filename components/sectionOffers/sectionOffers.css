@@ -1,16 +1,11 @@
-#offer {
+#section3 {
     background-color: var(--kolor-glowny-letter);
 }
 
-#offer img {
+#section3 img {
     width: 100%;
     min-height: 100%;
 }
-
-
-/* #OgrodzeniaOzdobne {
-    transition: .35s;
-} */
 
 .container {
     max-width: 60vw;
@@ -24,6 +19,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.labels h1 {
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .foto {
@@ -41,12 +42,16 @@
     border: 5px solid rgb(192, 191, 191);
 }
 
+.wrapperSmallPic {
+    margin-top: 100px;
+}
+
 .wrapperSmallPic h1 {
     text-transform: capitalize;
     font-size: 1.4rem;
     border-bottom: 1px solid wheat;
     padding: 20px;
-    width: 350px;
+    /* width: 350px; */
 }
 
 .smallfoto {
