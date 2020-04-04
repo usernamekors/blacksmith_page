@@ -5,6 +5,7 @@ document.querySelectorAll('nav ul li').forEach((btn, index) => {
             scrollTo: {
                 y: '#section' + (index + 1),
                 offsetY: 80
+    
             }
         });
     });
