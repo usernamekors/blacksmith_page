@@ -18,18 +18,20 @@ label.logo {
     cursor: pointer;
 }
 
-
-/* -------------------------------------- BTN -------------------------------------- */
+label.logo a {
+    color: black;
+    text-decoration: none;
+}
 
 nav ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 45px;
 }
 
 nav ul li {
     display: inline-block;
     line-height: 80px;
-    margin: 0 25px;
+    margin: 0 10px;
 }
 
 nav ul li a {
