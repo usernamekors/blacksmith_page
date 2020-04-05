@@ -20,3 +20,9 @@ $(function() {
         return false;
     });
 });
+
+let btn = document.querySelector('.logo');
+
+btn.addEventListener('click', () => {
+    gsap.to(window, { duration: 2, scrollTo: { y: '#home', offsetY: 50 } });
+});
