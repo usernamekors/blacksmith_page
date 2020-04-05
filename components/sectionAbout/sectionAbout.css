@@ -1,6 +1,6 @@
 /* -------------------------------------- sectionAbout -------------------------------------- */
 
-#about {
+#menu1 {
     background-color: var(--kolor-glowny-letter);
     height: 100%;
 }
@@ -28,9 +28,9 @@
 
 .wrapperAbout img {
     width: 30%;
-    height: 500px;
-    border-radius: 10%;
-    padding: 0 0 46px 0;
+    height: 460px;
+    border-radius: 5%;
+    margin: 0 0 36px 0;
 }
 
 @media screen and (max-width: 600px) {

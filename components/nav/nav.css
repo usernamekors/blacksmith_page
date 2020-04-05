@@ -11,12 +11,15 @@ nav {
 }
 
 label.logo {
-    /* color: var(--kolor-glowny-white); */
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    cursor: pointer;
 }
+
+
+/* -------------------------------------- BTN -------------------------------------- */
 
 nav ul {
     float: right;
@@ -26,7 +29,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
+    margin: 0 25px;
 }
 
 nav ul li a {
@@ -38,7 +41,7 @@ nav ul li a {
     border: 3px solid black;
 }
 
-a:hover {
+nav ul li a:hover {
     background: var(--kolor-glowny-letter);
     transition: .5s;
     color: rgb(5, 5, 5);
@@ -101,7 +104,7 @@ a:hover {
         font-size: 22px;
         border: none;
     }
-    a:hover {
+    nav ul li a:hover {
         background: none;
         color: var(--kolor-glowny-section);
     }

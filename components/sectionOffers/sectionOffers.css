@@ -51,7 +51,6 @@
     font-size: 1.4rem;
     border-bottom: 1px solid wheat;
     padding: 20px;
-    /* width: 350px; */
 }
 
 .smallfoto {
@@ -63,8 +62,8 @@
 }
 
 .smallfoto_1 {
-    width: 150px;
-    height: 110px;
+    width: 190px;
+    height: 150px;
     margin: 15px;
 }
 
