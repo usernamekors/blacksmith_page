@@ -12,9 +12,10 @@ $(function() {
             scrollTo: {
                 y: topY,
                 offsetY: 80,
-                autoKill: true
+                autoKill: true,
+                ease: Power3.easeOut
             },
-            ease: Power3.easeOut
+            
         });
 
         return false;

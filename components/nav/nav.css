@@ -11,22 +11,30 @@ nav {
 }
 
 label.logo {
-    /* color: var(--kolor-glowny-white); */
+    color: var(--kolor-glowny-white); 
     font-size: 35px;
     line-height: 80px;
-    padding: 0 100px;
     font-weight: bold;
+    float: left;
+    margin-left: 50px;
+    
 }
+
+label.logo a {
+    color: black; 
+    
+}
+
 
 nav ul {
-    float: right;
-    margin-right: 20px;
+    width: 90%;
 }
 
+
 nav ul li {
-    display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    float: right;
 }
 
 nav ul li a {
@@ -38,7 +46,7 @@ nav ul li a {
     border: 3px solid black;
 }
 
-a:hover {
+nav ul li a:hover {
     background: var(--kolor-glowny-letter);
     transition: .5s;
     color: rgb(5, 5, 5);
