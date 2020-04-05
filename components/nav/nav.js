@@ -24,5 +24,5 @@ $(function() {
 let btn = document.querySelector('.logo');
 
 btn.addEventListener('click', () => {
-    gsap.to(window, { duration: 2, scrollTo: { y: '#home', offsetY: 50 } });
+    gsap.to(window, { duration: 1, scrollTo: { y: '#home', offsetY: 50 } });
 });
