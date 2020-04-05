@@ -30,6 +30,10 @@
     text-transform: capitalize;
 }
 
+.box h4 i {
+    font-size: 3.2rem;
+}
+
 .box h1 {
     color: #000000;
     font-size: 25px;
