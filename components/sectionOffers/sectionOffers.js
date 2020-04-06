@@ -3,7 +3,7 @@ document.querySelectorAll('.foto').forEach((btn) => {
         gsap.to(window, {
             duration: 2.5,
             scrollTo: { y: '#specjalSmallPic', offsetY: 80, autoKill: false },
-            ease: 'bounce'
+            ease: 'power3'
         });
     });
 });

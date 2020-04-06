@@ -49,6 +49,7 @@ body {
 @media screen and (max-width: 600px) {
     .chapter {
         text-align: center;
+        padding-left: 0;
     }
 }
 
