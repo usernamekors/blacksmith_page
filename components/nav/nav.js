@@ -26,3 +26,4 @@ let btn = document.querySelector('.logo');
 btn.addEventListener('click', () => {
     gsap.to(window, { duration: 1, scrollTo: { y: '#home', offsetY: 50 } });
 });
+
