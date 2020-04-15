@@ -70,12 +70,12 @@ nav ul li a:hover {
     display: none;
 }
 
+#btn2 {
+    display: none;
+}
+
 
 /* -------------------------------------- MEDIA NAV -------------------------------------- */
-
-
-
-
 
 @media (max-width: 952px) {
     .checkbtn {
@@ -107,9 +107,7 @@ nav ul li a:hover {
         transition: all .5s;
         z-index: 1;
         position: fixed;
-
     }
-
     nav ul li {
         display: block;
         margin: 60px 0 0 0;
@@ -128,7 +126,6 @@ nav ul li a:hover {
     }
 }
 
-
 @media (max-width: 630px) {
     .checkbtn {
         position: fixed;
@@ -142,7 +139,6 @@ nav ul li a:hover {
         font-weight: lighter;
         padding-right: 50px;
         line-height: 80px;
-
     }
     nav ul li a {
         font-size: 16px;
@@ -162,10 +158,8 @@ nav ul li a:hover {
         padding-right: 50px;
         line-height: 25px;
         padding: 15px 10px 0 150px;
-
     }
     nav ul li a {
         font-size: 16px;
     }
 }
-
