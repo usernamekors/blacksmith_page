@@ -22,26 +22,19 @@ $(function() {
 });
 
 let btn = document.querySelector('.logo');
-
 btn.addEventListener('click', () => {
     gsap.to(window, { duration: 1, scrollTo: { y: '#home', offsetY: 50 } });
 });
 
-let btn1 = document.querySelector('#btn1');
-let btn2 = document.querySelector('#btn2');
 
-btn1.addEventListener('click', () => {
-    if (btn1.style.display === 'block') {
-        btn2.style.display = 'none';
-    } else if ((btn1.style.display = 'none')) {
-        btn2.style.display = 'block';
-    }
-});
-
-btn2.addEventListener('click', () => {
-    if (btn2.style.display === 'none') {
-        btn1.style.display = 'block';
-    } else if ((btn2.style.display = 'none')) {
-        btn1.style.display = 'block';
-    }
-});
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const hidden = document.querySelector('ul');
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('toggle');
+    });
+    hidden.addEventListener('click', () => {
+        hidden.style.opacity = '0.7';
+    });
+}
+navSlide();
