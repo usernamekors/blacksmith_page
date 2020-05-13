@@ -1,14 +1,12 @@
 const slideList = [{
-        img: 'images/img5.jpg',
-        text: 'Mówienie tak bardzo przeszkadza w myśleniu.'
+        img: 'images/ss1.jpg'
+       
     },
     {
-        img: 'images/img6.jpg',
-        text: 'Ze świata tego każdy ma tyle, ile sobie weźnie.'
+        img: 'images/ss2.jpg'
     },
     {
-        img: 'images/img4.jpg',
-        text: 'Wykop studnię, zanim poczujesz pragnienie.'
+        img: 'images/ss3.jpg'
     }
 ];
 

@@ -19,6 +19,7 @@
 .box {
     width: 100vw;
     line-height: 35px;
+    padding-top: 15px;
 }
 
 .box h4 {
