@@ -1,27 +1,26 @@
 const slideList = [{
-        img: 'images/ss1.jpg'
-       
+        img: 'images/sectionSlider/img1.jpg',
+        text: 'balustrada-wewnętrzne'
     },
     {
-        img: 'images/ss2.jpg'
+        img: 'images/sectionSlider/img2.jpg',
+        text: 'brama'
     },
     {
-        img: 'images/ss3.jpg'
+        img: 'images/sectionSlider/img3.jpg',
+        text: 'ogrodzenie'
     }
 ];
-
 const image = document.querySelector('img.slider');
 const h1 = document.querySelector('h1.slider');
-const dots = [...document.querySelectorAll('.dots span')];
-
-const time = 4000;
+const dots = [...document.querySelectorAll('.dots span')]
+const time = 3000;
 let active = 0;
-
 const changeDot = () => {
-    const activeDot = dots.findIndex((dot) => dot.classList.contains('active'));
+    const activeDot = dots.findIndex(dot => dot.classList.contains('active'));
     dots[activeDot].classList.remove('active');
     dots[active].classList.add('active');
-};
+}
 
 const changeSlide = () => {
     active++;
@@ -30,13 +29,14 @@ const changeSlide = () => {
     }
     image.src = slideList[active].img;
     h1.textContent = slideList[active].text;
-    changeDot();
-};
-let indexInterval = setInterval(changeSlide, time);
+    changeDot()
+}
+let indexInterval = setInterval(changeSlide, time)
 
 const keyChangeSlide = (e) => {
+    console.log(e.keyCode);
     if (e.keyCode == 37 || e.keyCode == 39) {
-        clearInterval(indexInterval);
+        clearInterval(indexInterval)
         e.keyCode == 37 ? active-- : active++;
         if (active === slideList.length) {
             active = 0;
@@ -46,7 +46,8 @@ const keyChangeSlide = (e) => {
         image.src = slideList[active].img;
         h1.textContent = slideList[active].text;
         changeDot();
-        indexInterval = setInterval(changeSlide, time);
+        indexInterval = setInterval(changeSlide, time)
     }
-};
-window.addEventListener('keydown', keyChangeSlide);
+}
+
+window.addEventListener('keydown', keyChangeSlide)
