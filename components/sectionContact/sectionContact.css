@@ -19,10 +19,7 @@
 
 .box {
     width: 50vw;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     line-height: 35px;
-    /* padding: 55px; */
 }
 
 .box h4 {
