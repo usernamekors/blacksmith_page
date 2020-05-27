@@ -6,6 +6,7 @@
 
 .containercontact {
     display: flex;
+    padding: 55px;
 }
 
 .Contactform {
@@ -17,9 +18,11 @@
 /* -------------------------------------- kontakt -------------------------------------- */
 
 .box {
-    width: 100vw;
+    width: 50vw;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
     line-height: 35px;
-    padding-top: 15px;
+    /* padding: 55px; */
 }
 
 .box h4 {

@@ -7,25 +7,26 @@ nav {
     width: 100%;
     position: fixed;
     z-index: 3;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 label.logo {
     font-size: 35px;
     line-height: 50px;
     padding: 0 100px;
-    font-weight: bold;
+    font-weight: 900;
     cursor: pointer;
+    letter-spacing: 2px;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 
 label.logo a {
-    color: black;
+    color: var(--kolor-glowny-letter);
     text-decoration: none;
 }
 
 label.logo a:hover {
     color: rgba(0, 0, 0, 0.6);
-    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 
 nav ul {
@@ -43,7 +44,7 @@ nav ul li a {
     color: var(--kolor-glowny-white);
     font-size: 17px;
     padding: 7px 13px;
-    border-radius: 3px;
+    border-radius: 6px;
     text-transform: uppercase;
     border: 3px solid black;
 }
