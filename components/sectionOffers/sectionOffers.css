@@ -22,9 +22,12 @@
 }
 
 .labels h1 {
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 0.7em;
     text-transform: capitalize;
+    position: absolute;
+    padding: 120px 40px 40px 10px;
+    color: aliceblue;
+    letter-spacing: 2px;
 }
 
 .foto {
