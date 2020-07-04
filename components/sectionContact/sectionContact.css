@@ -97,6 +97,10 @@ input[type=submit]:hover {
 
 @media (max-width: 768px) {
     .containercontact {
+        /* display: flex; */
+        padding: 5px;
+    }
+    .containercontact {
         flex-direction: column;
     }
     .sectioncontact {

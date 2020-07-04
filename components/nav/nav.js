@@ -38,3 +38,21 @@ const navSlide = () => {
     });
 }
 navSlide();
+
+// const navSlide = () => {
+//     const checkbtn = document.querySelector('label.checkbtn');
+//     const burger = document.querySelector('.burger');
+//     const hidden = document.querySelector('ul');
+//     const toggle = document.querySelector('.toggle');
+//     const check = document.querySelector('#check:checked~ul');
+
+//     burger.addEventListener('click', () => {
+//         burger.classList.toggle('toggle');
+//     });
+//     hidden.addEventListener('click', () => {
+//         checkbtn.style.display = 'block';
+//         burger.classList.remove('toggle');
+//         hidden.style.display = 'none';
+//     });
+// }
+// navSlide();
